@@ -18,6 +18,7 @@ flutter:
   assets: 
     - assets/
     - assets/images/
+    - assets/question/
   fonts: 
     - family: Nunito Sans
       fonts: 
