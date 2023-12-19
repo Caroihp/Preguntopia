@@ -139,7 +139,22 @@ class PrimaryColors {
   Color get gray700 => Color(0XFF7E4B45);
 
   // Orange
-  Color get orange800 => Color(0XFFDA7700);
+  Color get orange800 => Color(0XFFDA7800);
+
+  // Red
+  Color get red800 => Color(0XFFE93325);
+
+  // green
+  Color get green800 => Color(0XFF0FFF8C);
+
+  // Blue
+  Color get blue800 => Color(0XFF2170C2);
+
+  // Blue2
+  Color get blue2800 => Color(0XFF6BE1FF);
+
+  // Yellow
+  Color get yellow800 => Color(0XFFFFE000);
 
   // Pink
   Color get pink200 => Color(0XFFF69BBC);

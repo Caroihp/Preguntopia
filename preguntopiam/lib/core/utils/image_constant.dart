@@ -35,6 +35,26 @@ class ImageConstant {
   static String imgBraindeportes63x65 =
       '$imagePath/img_braindeportes_63x65.png';
 
+  // PreguntasArtes images
+  static String imgBrainartes63x65 =
+      '$imagePath/img_brainartes_63x65.png';
+
+  // PreguntasCiencias images
+  static String imgBrainciencias63x65 =
+      '$imagePath/img_brainciencias_63x65.png';
+
+  // PreguntasEntretencion images
+  static String imgBrainentretencion63x65 =
+      '$imagePath/img_brainentretencion_63x65.png';
+
+  // PreguntasGeografia images
+  static String imgBraingeografia63x65 =
+      '$imagePath/img_braingeografia_63x65.png';
+
+  // PreguntasTodas images
+  static String imgBraintodas63x65 =
+      '$imagePath/img_braintodas_63x65.png';
+
   // Final images
   static String imgFinal = '$imagePath/img_final.png';
 

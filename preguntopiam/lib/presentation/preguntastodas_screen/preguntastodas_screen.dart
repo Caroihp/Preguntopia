@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:preguntopia/core/app_export.dart';
 import 'package:preguntopia/widgets/custom_elevated_button.dart';
 
-class PreguntashistoriaScreen extends StatelessWidget {
-  const PreguntashistoriaScreen({Key? key})
+class PreguntastodasScreen extends StatelessWidget {
+  const PreguntastodasScreen({Key? key})
       : super(
           key: key,
         );
@@ -46,7 +46,7 @@ class PreguntashistoriaScreen extends StatelessWidget {
                     width: 287.h,
                     margin: EdgeInsets.only(right: 57.h),
                     child: Text(
-                      "¿Dónde se encuentra \nel río Nilo?",
+                      "¿Cuántas cuerdas suele \ntener un bajo eléctrico?",
                       maxLines: 4,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
@@ -96,13 +96,13 @@ class PreguntashistoriaScreen extends StatelessWidget {
         horizontal: 31.h,
         vertical: 11.v,
       ),
-      decoration: AppDecoration.fillGray,
+      decoration: AppDecoration.fillyellow,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           CustomImageView(
-            imagePath: ImageConstant.imgBrainhistoria63x65,
+            imagePath: ImageConstant.imgBraintodas63x65,
             height: 63.v,
             width: 65.h,
             margin: EdgeInsets.only(
@@ -139,7 +139,7 @@ class PreguntashistoriaScreen extends StatelessWidget {
   /// Section Widget
   Widget _buildButtonAsia(BuildContext context) {
     return CustomElevatedButton(
-      text: "Asia",
+      text: "Tres",
       margin: EdgeInsets.only(
         left: 47.h,
         right: 48.h,
@@ -150,7 +150,7 @@ class PreguntashistoriaScreen extends StatelessWidget {
   /// Section Widget
   Widget _buildButtonEuropa(BuildContext context) {
     return CustomElevatedButton(
-      text: "Europa",
+      text: "Cuatro",
       margin: EdgeInsets.only(
         left: 47.h,
         right: 48.h,
@@ -162,7 +162,7 @@ class PreguntashistoriaScreen extends StatelessWidget {
   /// Section Widget
   Widget _buildButtonAfrica(BuildContext context) {
     return CustomElevatedButton(
-      text: "África",
+      text: "Cinco",
       margin: EdgeInsets.only(
         left: 47.h,
         right: 48.h,
@@ -173,7 +173,7 @@ class PreguntashistoriaScreen extends StatelessWidget {
   /// Section Widget
   Widget _buildButtonAmerica(BuildContext context) {
     return CustomElevatedButton(
-      text: "América",
+      text: "Seis",
       margin: EdgeInsets.only(
         left: 47.h,
         right: 48.h,

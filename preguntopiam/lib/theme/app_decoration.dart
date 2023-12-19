@@ -9,11 +9,32 @@ class AppDecoration {
   static BoxDecoration get fillGray => BoxDecoration(
         color: appTheme.gray700,
       );
+
+  static BoxDecoration get fillred => BoxDecoration(
+        color: appTheme.red800,
+      );
+
   static BoxDecoration get fillOnPrimaryContainer => BoxDecoration(
         color: theme.colorScheme.onPrimaryContainer,
       );
   static BoxDecoration get fillOrange => BoxDecoration(
         color: appTheme.orange800,
+      );
+
+  static BoxDecoration get fillgreen => BoxDecoration(
+        color: appTheme.green800,
+      );
+
+  static BoxDecoration get fillblue => BoxDecoration(
+        color: appTheme.blue800,
+      );
+
+  static BoxDecoration get fillblue2 => BoxDecoration(
+        color: appTheme.blue2800,
+      );
+
+  static BoxDecoration get fillyellow => BoxDecoration(
+        color: appTheme.yellow800,
       );
 
   // Outline decorations
