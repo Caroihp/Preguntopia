@@ -1,59 +1,44 @@
+# preguntopiam
 
-# preguntopia
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+### Tabla de contenido
+- [Requisitos del sistema](#requisitos-del-sistema)
+- [Comprueba la interfaz de usuario de toda la aplicación](#app-navigations)
+- [Estructura de la aplicación](#estructura-proyecto)
+- [¿Cómo se puede mejorar la legibilidad del código?](#cómo-puedes-mejorar-la-legibilidad-del-código)
 
-### System requirements
+### Requisitos del sistema
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
+Dart SDK versión 2.18.0 o superior.
+Flutter SDK versión 3.3.0 o superior.
 
-### Figma design guidelines for better UI accuracy
+### Verifique la interfaz de usuario de toda la aplicación
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+Verifique la interfaz de usuario de todas las pantallas de la aplicación desde un solo lugar configurando 'initialRoute'  para AppNavigation en el archivo AppRoutes.dart.
 
-### Check the UI of the entire app
-
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
-
-### Application structure
-After successful build, your application structure should look like this:
+### Estructura de la aplicación
+Después de una compilación exitosa, la estructura de su aplicación debería verse así:
                     
 ```
 .
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
+├── android: contiene los archivos necesarios para ejecutar la aplicación en una plataforma Android.
+├── assets: contiene todas las imágenes y fuentes de su aplicación.
+├── ios: contiene los archivos necesarios para ejecutar la aplicación en una plataforma iOS.
+├── lib: carpeta más importante de la aplicación, utilizada para escribir la mayor parte del código Dart.
+     ├── main.dart - Punto de partida de la aplicación
+     ├── core
+     │ ├── app_export.dart: contiene importaciones de archivos de uso común
+     │ ├── constants: contiene un archivo de clase constante estática
+     │ └── utils: contiene archivos y utilidades comunes de la aplicación.
+     ├── presentation - Contiene widgets de las pantallas
+     ├── routes - Contiene todas las rutas de la aplicación
+     └── theme: contiene temas de aplicaciones y clases de decoración.
+     └── widgets: contiene todas las clases de widgets personalizados
 ```
-### How to format your code?
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+### ¿Cómo se puede mejorar la legibilidad del código?
 
-### How you can improve code readability?
+Resolver los errores y avisos que se muestran en la aplicación.
 
-Resolve the errors and warnings that are shown in the application.
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+### Pasos para Ejecutar
+Clona este repositorio o descarga el código fuente en tu máquina local.
+git clone < https://github.com/Caroihp/Preguntopia.git >
