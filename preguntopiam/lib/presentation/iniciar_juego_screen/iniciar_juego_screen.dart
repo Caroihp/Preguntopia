@@ -76,7 +76,7 @@ class _IniciarJuegoScreenState extends State<IniciarJuegoScreen> {
                   buttonStyle: CustomButtonStyles.fillPrimary,
                   buttonTextStyle: CustomTextStyles.titleLargeOnPrimaryContainerSemiBold,
                   onPressed: () {
-                    Navigator.pushNamed(context, AppRoutes.preguntascienciasScreen);
+                    Navigator.pushNamed(context, AppRoutes.preguntashistoriaScreen);
                   },
                 ),
                 SizedBox(height: 85.v),
